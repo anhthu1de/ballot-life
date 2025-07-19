@@ -1,0 +1,30 @@
+{
+  "canisters": {
+    "BallotLife_backend": {
+      "main": "src/BallotLife_backend/main.mo",
+      "type": "motoko"
+    },
+    "BallotLife_frontend": {
+      "dependencies": [
+        "BallotLife_backend"
+      ],
+      "source": [
+        "src/BallotLife_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "BallotLife_frontend"
+    },
+    "internet_identity": {
+      "type": "pull",
+      "id": "rdmx6-jaaaa-aaaaa-aaadq-cai"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": "mops sources"
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
