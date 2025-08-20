@@ -1,7 +1,27 @@
-# `BallotLife`
+# `BallotLife` – Secure, Transparent, and Decentralized Voting
 
-Welcome to your new `BallotLife` project and to the Internet Computer development community. By default, creating a new project adds this README and some template files to your project directory. You can edit these template files to customize your project and to include your own code to speed up the development cycle.
+BallotLife is a blockchain-powered voting platform designed to bring secure, transparent, and tamper-proof decision-making to real-world communities. By leveraging smart contracts and identity verification, BallotLife ensures that every vote counts and cannot be altered. Whether for civic initiatives, organizational decisions, or community-based polls, the platform empowers inclusive participation through trustless technology.
 
+🔐 Key Features
+1. Secure Login with Identity Verification
+Users sign in through a secure, identity-verified process. This ensures that only eligible participants can create or cast votes.
+
+2. Create New Polls Easily
+Authorized users can create new voting sessions by providing the poll title, description, and duration.
+
+3. Add Multiple Candidates
+Poll creators can dynamically add candidates or choices to their polls before launch.
+
+4. Live Voting and Real-Time Results
+Once voting is open, users can vote securely. Results are updated in real time with blockchain-backed accuracy.
+
+5. Close Voting
+Polls can be set to close automatically after a deadline or be closed manually by the creator once a decision is finalized.
+
+6. Transparent and Immutable Voting Records
+All votes are recorded on the blockchain, ensuring transparency and preventing tampering or manipulation.
+
+##Get started
 To get started, you might want to explore the project directory structure and the default configuration file. Working with this project in your development environment will not affect any production deployment or identity tokens.
 
 To learn more before you start working with `BallotLife`, see the following documentation available online:
